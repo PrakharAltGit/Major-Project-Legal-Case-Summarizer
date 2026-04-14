@@ -30,6 +30,12 @@ const features = [
     title: "Legal Section Identification",
     description: "Automatically detect and organize statutory sections (IPC, BNS, BNSS, and other laws) referenced in the case.",
   },
+  {
+    icon: FileText,
+    title: "Case Chat Assistant",
+    description: "Ask AI questions about your case and get context-aware answers on demand.",
+  },
+  
 ];
 
 export default function LandingPage() {
@@ -116,7 +122,7 @@ export default function LandingPage() {
       </section>
 
       <section className="py-20 lg:py-32">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-10">
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 dark:text-slate-100 mb-4">
               Everything you need
@@ -126,13 +132,13 @@ export default function LandingPage() {
             </p>
           </div>
           
-          <div className="flex flex-wrap justify-center gap-6 max-w-7xl mx-auto">
+          <div className="flex flex-wrap justify-center gap-8 xl:gap-10">
             {features.map((feature, index) => {
               const Icon = feature.icon;
               return (
                 <div
                   key={index}
-                  className="group relative w-full sm:w-80 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-6 hover:shadow-xl hover:shadow-slate-200/50 dark:hover:shadow-slate-900/50 transition-all duration-300"
+                  className="group relative w-full max-w-[26rem] rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-6 hover:shadow-xl hover:shadow-slate-200/50 dark:hover:shadow-slate-900/50 transition-all duration-300"
                 >
                   <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-blue-50/0 to-indigo-50/0 group-hover:from-blue-50/50 group-hover:to-indigo-50/50 dark:group-hover:from-blue-950/20 dark:group-hover:to-indigo-950/20 transition-all duration-300" />
                   <div className="relative">
