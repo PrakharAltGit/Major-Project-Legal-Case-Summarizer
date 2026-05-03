@@ -14,7 +14,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Evidence Summarizer - AI-Powered Legal Analysis",
+  title: "Legalyze",
+  icons: {
+    icon: '/grok4.ico',
+  },
   description: "Upload, analyze, and summarize legal evidence with AI",
 };
 
