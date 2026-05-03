@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Legalyze",
   icons: {
-    icon: '/grok4.ico',
+    icon: '/legalyze.ico',
   },
   description: "Upload, analyze, and summarize legal evidence with AI",
 };
